@@ -634,7 +634,7 @@ section[id]{ scroll-margin-top:calc(var(--header-h) + 8px); }
 }
 .car-media{ position:relative; aspect-ratio:16/10; border-radius:var(--radio); overflow:clip; background:#1d1d1d; }
 .car-media img{
-  width:100%; height:100%; object-fit:cover;
+  width:100%; height:100%; object-fit:contain;
   transform:scale(1.12) translateX(calc((var(--i) - var(--idx)) * 4%));   /* parallax interno */
   transition:transform 1.1s cubic-bezier(.22,1,.36,1);
 }
@@ -1360,9 +1360,10 @@ section[id]{ scroll-margin-top:calc(var(--header-h) + 8px); }
           <input class="car-r" type="radio" name="c-materiales" id="c-materiales-5" aria-label="Foto 5 de 5">
           <div class="car-viewport">
             <ul class="car-track">
+              <li class="car-card" style="--i:1"><div class="car-media"><img src="img/Mobiliario y Museografia foto 1.png" alt="TOTTO SPORTS, 1990" loading="lazy"></div><h4 class="car-title">TOTTO SPORTS, 1990</h4><p class="car-desc">Descripción breve de la imagen.</p></li>
+              <li class="car-card" style="--i:1"><div class="car-media"><img src="img/Mobiliario y Museografia foto 2.png" alt="TOTTO SPORTS, 1990" loading="lazy"></div><h4 class="car-title">TOTTO SPORTS, 1990</h4><p class="car-desc">Descripción breve de la imagen.</p></li>
               <li class="car-card" style="--i:0"><div class="car-media"><img src="img/coleccion-clasica.jpg" alt="Colección Classic" loading="lazy"></div><h4 class="car-title">Colección Classic</h4><p class="car-desc">Descripción breve de la imagen.</p></li>
               <li class="car-card" style="--i:1"><div class="car-media"><img src="img/ropa-sports-1990.jpg" alt="TOTTO SPORTS, 1990" loading="lazy"></div><h4 class="car-title">TOTTO SPORTS, 1990</h4><p class="car-desc">Descripción breve de la imagen.</p></li>
-              <li class="car-card" style="--i:2"><div class="car-media"><img src="img/campana-outdoor-1990.jpg" alt="Campaña Outdoor" loading="lazy"></div><h4 class="car-title">Campaña Outdoor</h4><p class="car-desc">Descripción breve de la imagen.</p></li>
               <li class="car-card" style="--i:3"><div class="car-media"><span class="car-ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8a2 2 0 0 1 2-2h2l2-2h6l2 2h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><circle cx="12" cy="13" r="4"/></svg><span>Foto 4</span></span></div><h4 class="car-title">Título de la foto</h4><p class="car-desc">Descripción breve de la imagen.</p></li>
               <li class="car-card" style="--i:4"><div class="car-media"><span class="car-ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8a2 2 0 0 1 2-2h2l2-2h6l2 2h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><circle cx="12" cy="13" r="4"/></svg><span>Foto 5</span></span></div><h4 class="car-title">Título de la foto</h4><p class="car-desc">Descripción breve de la imagen.</p></li>
             </ul>
@@ -1598,6 +1599,7 @@ section[id]{ scroll-margin-top:calc(var(--header-h) + 8px); }
           <input class="car-r" type="radio" name="c-artistas" id="c-artistas-4" aria-label="Foto 4 de 4">
           <div class="car-viewport">
             <ul class="car-track">
+              <li class="car-card" style="--i:0"><div class="car-media"><img src="img/Gemini_Generated_Image_fhudvcfhudvcfhud.jpg" alt="La sala de drops" loading="lazy"></div><h4 class="car-title">La sala de drops</h4><p class="car-desc">Descripción breve de la imagen.</p></li>
               <li class="car-card" style="--i:0"><div class="car-media"><img src="img/exhibicion-artistas.jpg" alt="La sala de drops" loading="lazy"></div><h4 class="car-title">La sala de drops</h4><p class="car-desc">Descripción breve de la imagen.</p></li>
               <li class="car-card" style="--i:1"><div class="car-media"><img src="img/totto-gallery.jpg" alt="Totto Gallery" loading="lazy"></div><h4 class="car-title">Totto Gallery</h4><p class="car-desc">Descripción breve de la imagen.</p></li>
               <li class="car-card" style="--i:2"><div class="car-media"><img src="img/karolg-morrales.jpg" alt="Alianza Con Cora" loading="lazy"></div><h4 class="car-title">Alianza Con Cora</h4><p class="car-desc">Descripción breve de la imagen.</p></li>
@@ -1709,6 +1711,7 @@ section[id]{ scroll-margin-top:calc(var(--header-h) + 8px); }
           <input class="car-r" type="radio" name="c-deporte" id="c-deporte-4" aria-label="Foto 4 de 4">
           <div class="car-viewport">
             <ul class="car-track">
+              <li class="car-card" style="--i:0"><div class="car-media"><img src="img/Museo Olimpicos 2.jpg" alt="Patrocinios al deporte" loading="lazy"></div><h4 class="car-title">Patrocinios al deporte</h4><p class="car-desc">Descripción breve de la imagen.</p></li>
               <li class="car-card" style="--i:0"><div class="car-media"><img src="img/patrocinios-deporte.jpg" alt="Patrocinios al deporte" loading="lazy"></div><h4 class="car-title">Patrocinios al deporte</h4><p class="car-desc">Descripción breve de la imagen.</p></li>
               <li class="car-card" style="--i:1"><div class="car-media"><img src="img/mariana-pajon-exposicion.jpg" alt="La reina del BMX" loading="lazy"></div><h4 class="car-title">La reina del BMX</h4><p class="car-desc">Descripción breve de la imagen.</p></li>
               <li class="car-card" style="--i:2"><div class="car-media"><span class="car-ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8a2 2 0 0 1 2-2h2l2-2h6l2 2h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><circle cx="12" cy="13" r="4"/></svg><span>Foto 3</span></span></div><h4 class="car-title">Título de la foto</h4><p class="car-desc">Descripción breve de la imagen.</p></li>
@@ -1878,6 +1881,8 @@ section[id]{ scroll-margin-top:calc(var(--header-h) + 8px); }
           <input class="car-r" type="radio" name="c-olimpicos" id="c-olimpicos-5" aria-label="Foto 5 de 5">
           <div class="car-viewport">
             <ul class="car-track">
+              <li class="car-card" style="--i:0"><div class="car-media"><img src="img/Mural olimpicos.png" alt="20 años cumpliendo sueños" loading="lazy"></div><h4 class="car-title">20 años cumpliendo sueños</h4><p class="car-desc">Descripción breve de la imagen.</p></li>
+              <li class="car-card" style="--i:0"><div class="car-media"><img src="img/teaser.jpg" alt="20 años cumpliendo sueños" loading="lazy"></div><h4 class="car-title">20 años cumpliendo sueños</h4><p class="car-desc">Descripción breve de la imagen.</p></li>
               <li class="car-card" style="--i:0"><div class="car-media"><img src="img/panel-trayectoria-olimpica.jpg" alt="20 años cumpliendo sueños" loading="lazy"></div><h4 class="car-title">20 años cumpliendo sueños</h4><p class="car-desc">Descripción breve de la imagen.</p></li>
               <li class="car-card" style="--i:1"><div class="car-media"><img src="img/uniformes-olimpicos.jpg" alt="Uniformes olímpicos" loading="lazy"></div><h4 class="car-title">Uniformes olímpicos</h4><p class="car-desc">Descripción breve de la imagen.</p></li>
               <li class="car-card" style="--i:2"><div class="car-media"><img src="img/mariana-pajon-exposicion.jpg" alt="Mariana Pajón" loading="lazy"></div><h4 class="car-title">Mariana Pajón</h4><p class="car-desc">Descripción breve de la imagen.</p></li>
